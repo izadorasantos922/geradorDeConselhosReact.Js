@@ -1,0 +1,49 @@
+h1{
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    margin: 1.2rem 0;
+}
+
+.advice{
+    color: hsl(193, 38%, 86%);
+}
+
+.divider{
+    position: fixed;
+    left: 37.5%;
+    bottom: 35%;
+    width: 25%;
+}
+
+#square{
+    position: fixed;
+    bottom: 22%;
+    cursor: pointer;
+    background-color:hsl(150, 100%, 66%);
+    height: 50px;
+    border-radius: 50%;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#square:hover{
+    box-shadow: rgba( 82, 255, 169, 0.466) 0px 8px 24px,
+    rgba( 82, 255, 169, 0.411) 0px 16px 56px,
+    rgba( 82, 255, 169, 0.479) 0px 24px 80px;
+}
+
+@media(max-width: 425px){
+    .divider{
+        position: fixed;
+        left: 20%;
+        bottom: 35%;
+        width:60%;
+    }
+    #square{
+        bottom: 25%;
+    }
+ }
