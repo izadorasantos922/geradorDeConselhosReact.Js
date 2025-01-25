@@ -1,6 +1,6 @@
 # Gerador de Conselhos React.js
 
-[English Version](#english-version) 
+[English Version](#english-version) |  [Versão-em-Português](#vers%C3%A3o-em-portugu%C3%AAs)
 
 ## English Version
 
@@ -39,3 +39,42 @@ This repository contains a simple yet fun React-based project that generates ran
    npm start
    ```
 5. Open your browser and visit `http://localhost:3000` to view the application.
+
+---
+## Versão em Português
+
+### Bem-vindo ao Repositório Gerador de Conselhos React.js!
+
+Este repositório contém um projeto simples e divertido baseado em React que gera conselhos aleatórios para os usuários. Foi projetado para praticar o uso de APIs, gerenciamento de estado e hooks do React enquanto oferece uma experiência de usuário envolvente.
+
+### Funcionalidades
+- Busca conselhos aleatórios da [Advice Slip API](https://api.adviceslip.com/).
+- Exibe o conselho em uma interface limpa e responsiva.
+- Botão para gerar novos conselhos.
+- Forma divertida e interativa de aprender conceitos básicos do React e integração com APIs.
+
+### Tecnologias Utilizadas
+- **React.js**: Para construir a interface do usuário.
+- **JavaScript (ES6+)**: Para implementar lógica e interatividade.
+- **CSS**: Para estilização e design responsivo.
+- **Fetch API**: Para chamadas à API.
+
+### Como Começar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/izadorasantos922/geradorDeConselhosReact.Js.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd geradorDeConselhosReact.Js
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+   ```
+5. Abra seu navegador e visite `http://localhost:3000` para visualizar a aplicação.
